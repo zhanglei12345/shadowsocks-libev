@@ -2,9 +2,7 @@
 
 ## My-Docker
 
-[Docker Hub/zhanglei12345/shadowsocks-libev](https://hub.docker.com/r/zhanglei12345/shadowsocks-libev)
-
-`sudo docker run --restart=always -d -p hostPort:containerPort ssdocker:v1 -s 0.0.0.0 -p containerPort -k mypassword -m aes-256-cfb`
+`sudo docker run --restart=always -d -p hostPort:containerPort zhanglei12345/shadowsocks-libev:latest -s 0.0.0.0 -p containerPort -k mypassword -m aes-256-cfb`
 
 ## Intro
 
